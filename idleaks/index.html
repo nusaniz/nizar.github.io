@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bootstrap</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: serif;
+        }
+
+        .bd {
+            border: 1px solid;
+        }
+
+        @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+            footer {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">IdLeaks</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto" style="padding: 0;">
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li> -->
+              <li class="nav-item">
+                <!-- <a class="nav-link" href="#">Submit</a> -->
+                <!-- Scrollable modal -->
+<!-- Button trigger modal -->
+<button type="button" class="btn text-white" style="background-color: #5C727D;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Submit
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Informasi Submit</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            
+<div class="row">
+    <div class="col">
+        <h3>Submit documents to IdLeaks</h3>
+        <p>IdLeaks menerbitkan dokumen kepentingan politik atau sejarah yang disensor atau disembunyikan. Kami mengkhususkan diri dalam penerbitan global strategis dan arsip besar. </br></br>Berikut ini adalah alamat situs aman kami di mana Anda dapat mengunggah dokumen Anda secara anonim ke editor IdLeaks. Anda hanya dapat mengakses sistem pengiriman ini melalui Tor. (Lihat tab Tor kami untuk informasi lebih lanjut. Kami juga menyarankan Anda untuk membaca tips kami untuk sumber sebelum mengirimkan.</p>
+        <div class="alert alert-info" role="alert">
+            http://rpzgejae7cxxst5vysqsijblti4duzn3kjsmn43ddi2l3jblhk4a44id.onion </br>
+            <a href="https://wikileaks.org/verify-upload-address.txt">(Verify)</a>
+          </div>
+        <p>Jika Anda tidak dapat menggunakan Tor, atau kiriman Anda sangat besar, atau Anda memiliki persyaratan khusus, WikiLeaks menyediakan beberapa metode alternatif. Hubungi kami untuk mendiskusikan cara melanjutkan.
+
+            <!-- help -->
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseWiki" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    How to contact IdLeaks?
+                </a>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseTor" role="button" aria-expanded="false" aria-controls="collapseExasdample">
+                    What is Tor?
+                </a>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseTips" role="button" aria-expanded="false" aria-controls="collapseExasdample">
+                    Tips for Sources
+                </a>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseAfter" role="button" aria-expanded="false" aria-controls="collapseExasdample">
+                    After Submitting
+                </a>
+              </p>
+              
+              <div class="collapse" id="collapseWiki">
+                <div class="card card-body">
+                    <p>Contact</p>
+                    <p>Jika Anda memerlukan bantuan menggunakan Tor, Anda dapat menghubungi WikiLeaks untuk bantuan dalam menyiapkannya menggunakan obrolan web sederhana kami yang tersedia di: https://wikileaks.org/talk</p>
+                    <p>Jika Anda dapat menggunakan Tor, tetapi perlu menghubungi WikiLeaks karena alasan lain, gunakan obrolan web aman kami yang tersedia di http://wlchatc3pjwpli5r.onion</p>
+                    <p>Kami merekomendasikan untuk menghubungi kami melalui Tor jika Anda bisa.</p>
+                </div>
+              </div>
+              <div class="collapse" id="collapseTor">
+                <div class="card card-body">
+                    <p>Tor</p>
+                    <p>Tor adalah jaringan anonim terenkripsi yang membuatnya lebih sulit untuk mencegat komunikasi internet, atau melihat dari mana komunikasi berasal atau pergi.</p>
+                    <p>Untuk menggunakan sistem pengiriman publik WikiLeaks seperti yang dijelaskan di atas, Anda dapat mengunduh Tor Browser Bundle, yang merupakan browser mirip Firefox yang tersedia untuk Windows, Mac OS X dan GNU/Linux dan telah dikonfigurasi sebelumnya untuk terhubung menggunakan sistem anonim Tor.</p>
+                    <p>Tails</p>
+                    <p>Jika Anda berisiko tinggi dan Anda memiliki kapasitas untuk melakukannya, Anda juga dapat mengakses sistem pengiriman melalui sistem operasi aman yang disebut Tails. Tails adalah sistem operasi yang diluncurkan dari stik USB atau DVD yang bertujuan untuk tidak meninggalkan jejak saat komputer dimatikan setelah digunakan dan secara otomatis mengarahkan lalu lintas internet Anda melalui Tor. Tails akan mengharuskan Anda memiliki stik USB atau DVD berukuran minimal 4GB dan laptop atau komputer desktop.</p>
+                </div>
+              </div>
+              <div class="collapse" id="collapseTips">
+                <div class="card card-body">
+                    <p>Tips</p>
+                    <p>Sistem pengiriman kami bekerja keras untuk menjaga anonimitas Anda, tetapi kami menyarankan Anda juga mengambil beberapa tindakan pencegahan Anda sendiri. Harap tinjau pedoman dasar ini.</p>
+                    <p>1. Hubungi kami jika Anda memiliki masalah khusus<br>Jika Anda memiliki kiriman yang sangat besar, atau kiriman dengan format yang rumit, atau merupakan sumber berisiko tinggi, silakan hubungi kami. Dalam pengalaman kami, selalu mungkin untuk menemukan solusi khusus bahkan untuk situasi yang tampaknya paling sulit sekalipun.</p>
+                    <p>2. Komputer apa yang digunakan<br>Jika komputer yang Anda unggah kemudian dapat diaudit dalam penyelidikan, pertimbangkan untuk menggunakan komputer yang tidak mudah terikat dengan Anda. Pengguna teknis juga dapat menggunakan Tails untuk membantu memastikan Anda tidak meninggalkan catatan kiriman Anda di komputer.</p>
+                    <p>3. Jangan berbicara tentang penyerahan Anda kepada orang lain<br>Jika Anda memiliki masalah, bicarakan dengan WikiLeaks. Kami adalah pakar global dalam perlindungan sumber – ini adalah bidang yang kompleks. Bahkan mereka yang bermaksud baik seringkali tidak memiliki pengalaman atau keahlian untuk menasihati dengan benar. Ini termasuk organisasi media lainnya.</p>
+                </div>
+              </div>
+              <div class="collapse" id="collapseAfter">
+                <div class="card card-body">
+                    <p>After</p>
+                    <p>1. Jangan berbicara tentang penyerahan Anda kepada orang lain<br>Jika Anda memiliki masalah, bicarakan dengan WikiLeaks. Kami adalah pakar global dalam perlindungan sumber – ini adalah bidang yang kompleks. Bahkan mereka yang bermaksud baik seringkali tidak memiliki pengalaman atau keahlian untuk menasihati dengan benar. Ini termasuk organisasi media lainnya.</p>
+                    <p>2. Bersikaplah normal<br>Jika Anda adalah sumber berisiko tinggi, hindari mengatakan apa pun atau melakukan apa pun setelah mengirimkan yang dapat menimbulkan kecurigaan. Secara khusus, Anda harus mencoba untuk tetap pada rutinitas dan perilaku normal Anda.
+                    </p>
+                    <p>3. Hapus jejak kiriman Anda<br>Jika Anda adalah sumber berisiko tinggi dan komputer tempat Anda menyiapkan kiriman, atau mengunggahnya, selanjutnya dapat diaudit dalam penyelidikan, kami sarankan Anda memformat dan membuang hard drive komputer dan media penyimpanan lain yang Anda gunakan.<br>Secara khusus, hard drive menyimpan data setelah pemformatan yang mungkin terlihat oleh tim forensik digital dan media flash (stik USB, kartu memori, dan drive SSD) menyimpan data bahkan setelah penghapusan yang aman. Jika Anda menggunakan media flash untuk menyimpan data sensitif, penting untuk menghancurkan media tersebut.<br>Jika Anda melakukan ini dan merupakan sumber berisiko tinggi, Anda harus memastikan tidak ada jejak pembersihan, karena jejak tersebut dapat menimbulkan kecurigaan.
+                    </p>
+                    <p>4. Jika Anda menghadapi tindakan hukum<br>Jika tindakan hukum diajukan terhadap Anda sebagai akibat dari pengajuan Anda, ada organisasi yang dapat membantu Anda. The Courage Foundation adalah sebuah organisasi internasional yang didedikasikan untuk perlindungan sumber-sumber jurnalistik. Anda dapat menemukan detail lebih lanjut di https://www.couragefound.org.
+                    </p>
+                </div>
+              </div>
+            <!-- help -->
+
+
+        </p>
+    </div>
+</div>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+          <!-- <button type="button" class="btn btn-primary">Mengerti</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    
+    <!-- navbar -->
+
+
+
+    <!-- jumbotron -->
+    <style>
+        .jumbotron {
+            padding: 3rem 0 3rem 0;
+            background-image: url(forest.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            /* background-color: rgb(207, 207, 250); */
+        }
+
+        .alert-danger {
+            display: none;
+        }
+    </style>
+    <div class="jumbotron jumbotron-fluid text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-4">Leaks</h1>
+                    <p class="lead">Pengawasan dan publish data secara anonim dan aman.</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <div class="alert alert-danger alert-dismissible fade show" id="error" role="alert">
+                        <strong>Maaf!</strong> masih gangguan.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                      </div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center pt-2">
+                <div class="col-10 col-sm-8 col-md-6 d-flex">
+                    <input type="text" class="form-control" id="search" placeholder="Cari keywords ...">
+                    <button type="button" onclick="cari()" class="btn btn-light"><img src="icons/search.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+      </div>
+    <!-- jumbotron -->
+
+    <script>
+        var error = document.getElementById("error");
+
+        function cari() {
+            error.style.display = "block";
+        }
+    </script>
+
+
+<!-- section 1 -->
+<!-- <style>
+</style>
+<section class="home pt-3" id="home">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <h2>Home</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 bd">
+                <div class="row pt-3">
+                    <div class="col">
+                        <h5 class="text-center fw-bold ">Daftar</h5>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <ul class="bd" style="list-style-type: none; padding: 0; width: 150px;">
+                            <li><a href="">Teknologi</a></li>
+                            <li><a href="">Politik</a></li>
+                            <li><a href="">Korupsi</a></li>
+                            <li><a href="">Skandal</a></li>
+                            <li><a href="">Data</a></li>
+                            <li><a href="">Hoax</a></li>
+                            <li><a href="">Kebocoran Data</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-md-9 bd">
+                <div class="row pt-3">
+                    <div class="col">
+                        <h5 class="fw-bold">Pembukaan</h5>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam dolor et doloremque officiis eius magnam corrupti facilis ad, blanditiis rerum quas quae praesentium unde optio hic adipisci, nobis nisi fugit. Quaerat quo quasi nihil mollitia perspiciatis totam ullam neque obcaecati?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- section 1 -->
+
+<!-- category -->
+<style>
+    section.category a.cat{
+        background-color: rgb(255, 255, 255);
+        padding: 1rem;
+        display: flex;
+        text-decoration: none;
+        color: black;
+        /* width: initial; */
+    }
+    
+    section.category a.cat:hover {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        
+    }
+</style>
+<section class="category mb-3" id="category">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-2 col-lg-2 text-center">
+                <a class="cat fw-bold justify-content-center" href="">Intelejen</a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 col-lg-2 text-center">
+                <a class="cat fw-bold justify-content-center" href="">Teknologi</a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 col-lg-2 text-center">
+                <a class="cat fw-bold justify-content-center" href="">Pemerintah</a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 col-lg-2 text-center">
+                <a class="cat fw-bold justify-content-center" href="">Perusahaan</a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 col-lg-2 text-center">
+                <a class="cat fw-bold justify-content-center" href="">Ekonomi</a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 col-lg-2 text-center">
+                <a class="cat fw-bold justify-content-center" href="">Politik</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- category -->
+
+
+<!-- post -->
+<style>
+    section.post {
+        padding: 0 0 3rem 0;
+    }
+
+    section.post .card {
+        background-color: #F7F7F7;
+    }
+
+    section.post .card h3.title {
+        padding: 1rem 1rem 0 1rem;
+        /* padding: 0 1rem 0 1rem; */
+        
+    }
+    
+    section.post .card p {
+        padding: 0 1rem 0 1rem;
+    }
+
+    section.post .card p.date {
+        text-align: right;
+    }
+</style>
+<section class="post" id="post">
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <h2 style="font-family: poppins;">Terbaru</h2>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="asset/img/pcw documa.png" alt="">
+                    <h3 class="title text-center fw-bold">OPCW Douma</h3>
+                    <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, maxime!</p>
+                    <p class="date fs-6">23 Oktober 2019</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="asset/img/us embassy shoping list.jpg" alt="">
+                    <h3 class="title text-center fw-bold">US Embassy Shopping List</h3>
+                    <p class="desc">Today, 21 December 2018, WikiLeaks publishes a searchable database of more than 16,000 procurement requests posted by United States embassies around the world.</p>
+                    <p class="date fs-6">23 Oktober 2019</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="asset/img/fishrot.jpg" alt="">
+                    <h3 class="title text-center fw-bold">Fishrot</h3>
+                    <p class="desc">Today, November 12, WikiLeaks publishes over 30000 documents from SAMHERJI
+                    </p>
+                    <p class="date fs-6">23 Oktober 2019</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="asset/img/amazon atlas.png" alt="">
+                    <h3 class="title text-center fw-bold">Amazon Atlas</h3>
+                    <p class="desc">Today, 11 Oct 2018, WikiLeaks publishes a highly confidential internal document from the cloud computing provider Amazon.</p>
+                    <p class="date fs-6">23 Oktober 2019</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="asset/img/pcw documa.png" alt="">
+                    <h3 class="title text-center fw-bold">OPCW Douma</h3>
+                    <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, maxime!</p>
+                    <p class="date fs-6">23 Oktober 2019</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="asset/img/us embassy shoping list.jpg" alt="">
+                    <h3 class="title text-center fw-bold">US Embassy Shopping List</h3>
+                    <p class="desc">Today, 21 December 2018, WikiLeaks publishes a searchable database of more than 16,000 procurement requests posted by United States embassies around the world.</p>
+                    <p class="date fs-6">23 Oktober 2019</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="asset/img/fishrot.jpg" alt="">
+                    <h3 class="title text-center fw-bold">Fishrot</h3>
+                    <p class="desc">Today, November 12, WikiLeaks publishes over 30000 documents from SAMHERJI
+                    </p>
+                    <p class="date fs-6">23 Oktober 2019</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="asset/img/amazon atlas.png" alt="">
+                    <h3 class="title text-center fw-bold">Amazon Atlas</h3>
+                    <p class="desc">Today, 11 Oct 2018, WikiLeaks publishes a highly confidential internal document from the cloud computing provider Amazon.</p>
+                    <p class="date fs-6">23 Oktober 2019</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- post -->
+
+
+<!-- footer -->
+<style>
+    footer {
+        background-color: #EBEBEB;
+        padding: 4.5rem 0 9rem 0;
+    }
+
+    footer img.spip-logo {
+        height: auto;
+        width: 100%;
+    }
+
+    footer a.card-sup .row .col p.desc-up {
+        font-family: Poppins;
+        font-size: 12.8px;
+        /* text-align: ju; */
+    }
+
+    footer a.card-sup {
+        color: #555555;
+        text-decoration: none;
+    }
+
+    .fc-300 {
+        height: 500px;
+    }
+
+    .fc-30 {
+        height: 30%;
+    }
+</style>
+<footer>
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-md-2 col-lg-2 fc-300">
+                <a class="card-sup" href="">
+                    <div class="row fc-30 align-items-center">
+                        <div class="col">
+                            <img class="spip-logo" src="asset/support/wikileaks.png" alt="" width="360" height="240">
+                        </div>
+                    </div>
+                    
+                    <div class="row pt-4">
+                        <div class="col">
+                            <p class="desc-up">WL Research Community - user contributed research based on documents published by WikiLeaks. </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-lg-2 fc-300">
+                <a class="card-sup" href="">
+                    <div class="row fc-30 align-items-center">
+                        <div class="col">
+                            <img class="spip-logo" src="asset/support/tor.png" alt="" width="360" height="240">
+                        </div>
+                    </div>
+                    
+                    <div class="row pt-4">
+                        <div class="col">
+                            <p class="desc-up">Tor is an encrypted anonymising network that makes it harder to intercept internet communications, or see where communications are coming from or going to.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-lg-2 fc-300">
+                <a class="card-sup" href="">
+                    <div class="row fc-30 align-items-center">
+                        <div class="col">
+                            <img class="spip-logo" src="asset/support/tails.png" alt="" width="360" height="240">
+                        </div>
+                    </div>
+                    
+                    <div class="row pt-4">
+                        <div class="col">
+                            <p class="desc-up"> Tails is a live operating system, that you can start on almost any computer from a DVD, USB stick, or SD card. It aims at preserving your privacy and anonymity.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-lg-2 fc-300">
+                <a class="card-sup" href="">
+                    <div class="row fc-30 align-items-center">
+                        <div class="col">
+                            <img class="spip-logo" src="asset/support/courage.png" alt="" width="360" height="240">
+                        </div>
+                    </div>
+                    
+                    <div class="row pt-4">
+                        <div class="col">
+                            <p class="desc-up">The Courage Foundation is an international organisation that supports those who risk life or liberty to make significant contributions to the historical record.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2 col-lg-2 fc-300">
+                <a class="card-sup" href="">
+                    <div class="row fc-30 align-items-center">
+                        <div class="col">
+                            <img class="spip-logo" src="asset/support/btc.png" alt="" width="360" height="240">
+                        </div>
+                    </div>
+                    
+                    <div class="row pt-4">
+                        <div class="col">
+                            <p class="desc-up">Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<!-- footer -->
+
+
+
+    
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
